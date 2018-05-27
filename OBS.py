@@ -169,9 +169,8 @@ block_list['block_length_month'] = (block_list['block_ends'] - block_list['block
 print(block_list.describe())
 
 # write it to an Excel File
-writer = pd.ExcelWriter(u"C:\\Users\\toba0\OneDrive\\Dokumente\\OpenStreetMap\\Projekte\\UserBlockCounter\\output.xlsx",
+writer = pd.ExcelWriter(u"C:\\Users\.................\\output.xlsx",
                         engine='xlsxwriter', date_format='dd mmm yyyy')
-pd.ExcelWriter(u"C:\\Users\\toba0\OneDrive\\Dokumente\\OpenStreetMap\\Projekte\\UserBlockCounter\\output.xlsx",
-               engine='xlsxwriter', date_format='dd mmm yyyy')
+
 block_list.to_excel(writer, 'Sheet1')
 writer.save()

@@ -19,7 +19,7 @@ senior_user_age = 0.5
 # deleted users are with 0 changesets and register date 01.01.2001 in the data, i.e. treated like older mapper
 
 # read in the excel file
-df_raw = pd.read_excel(u"C:\\Users\\toba0\OneDrive\\Dokumente\\OpenStreetMap\\Projekte\\UserBlockCounter\\output1.xlsx",date_format='dd mmm yyyy')
+df_raw = pd.read_excel(u"C:\\Users........\\output1.xlsx",date_format='dd mmm yyyy')
 
 # These are the "Tableau 20" colors as RGB.
 tableau20 = [(31, 119, 180), (174, 199, 232), (255, 127, 14), (255, 187, 120),
