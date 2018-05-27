@@ -10,7 +10,7 @@ import numpy as np                  # for timedelta
 
 
 # what is the highest number of user blocks i.e. www.openstreetmap.org/user_blocks/xyz
-max_block_number = 10
+max_block_number = 1999
 
 # Dataframe columns
 columns = ["block_no", "user", "blocked_by", "block_created", "block_ends", "block_text",
