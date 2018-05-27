@@ -151,7 +151,7 @@ for x in range(2, max_block_number+1):
 
 # creating Pandas Dataframe with the result list and delete empty values
 block_list = pd.DataFrame(list, columns=columns)
-block_list = block_list[isNaN(block_list["block_no"]) is False]
+block_list = block_list[isNaN(block_list["block_no"]) == False]
 
 
 # calc age of a blocked account as of block date
